@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tambah User Baru</title>
+</head>
+<body>
+ <form action="/users/new" method="POST">
+  <input type="text" name="name" placeholder="Nama">
+  <label>Gender:</label>
+  <label for="male1">
+  <input id="male1" type="checkbox" name="gender" value="male">
+  Male
+  </label>
+  <label for="female1">
+  <input id="female1" type="checkbox" name="gender" value="female">
+  Female
+  </label>
+  <button type="submit">Add</button>
+ </form>
+</body>
+</html>
